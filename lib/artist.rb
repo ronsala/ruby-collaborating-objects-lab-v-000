@@ -9,8 +9,6 @@ class Artist
 
   def save
     @@all << self
-    puts "@@all.first.songs is #{@@all.first.songs}"
-    puts "@@all.last.songs is #{@@all.last.songs}"
   end
 
   def self.find_by_name(name)
